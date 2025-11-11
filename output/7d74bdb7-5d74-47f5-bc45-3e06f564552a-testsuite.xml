@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1762831464296' stop='1762831469113'>
+    <name>User Main Flow:</name>
+    <title>User Main Flow:</title>
+    <test-cases>
+        <test-case start='1762831464645' status='failed' stop='1762831468745'>
+            <name>Đăng nhập thành công</name>
+            <title>Đăng nhập thành công</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1762831465085' status='failed' stop='1762831468744'>
+                    <name>I login </name>
+                    <title>I login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1762831465085' status='passed' stop='1762831467621'>
+                            <name>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</name>
+                            <title>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831467624' status='passed' stop='1762831468079'>
+                            <name>I fill field "Wifi Username", "cuongnpse194533"</name>
+                            <title>I fill field "Wifi Username", "cuongnpse194533"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831468079' status='passed' stop='1762831468720'>
+                            <name>I fill field "Password", "Taokophailatretrauok:))2005"</name>
+                            <title>I fill field "Password", "Taokophailatretrauok:))2005"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831468720' status='failed' stop='1762831468744'>
+                            <name>I click "Đăng nhập"</name>
+                            <title>I click "Đăng nhập"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='87adc56e-0f1f-45e2-af97-3a43e08b0ac6-attachment.png' type='image/png' size='820103'/>
+            </attachments>
+            <failure>
+                <message>Clickable element "Đăng nhập" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "Đăng nhập" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Edisk\dow\Tai_lieu\Ki5\swt301\completed-project\ridervolt-end-to-end-tests\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (C:\Edisk\dow\Tai_lieu\Ki5\swt301\completed-project\ridervolt-end-to-end-tests\node_modules\codeceptjs\lib\helper\Playwright.js:4047:11)
+                    at Playwright.proceedClick (C:\Edisk\dow\Tai_lieu\Ki5\swt301\completed-project\ridervolt-end-to-end-tests\node_modules\codeceptjs\lib\helper\Playwright.js:3801:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

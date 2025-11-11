@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1762831835119' stop='1762831845846'>
+    <name>User Main Flow:</name>
+    <title>User Main Flow:</title>
+    <test-cases>
+        <test-case start='1762831835617' status='passed' stop='1762831841149'>
+            <name>Đăng nhập thành công</name>
+            <title>Đăng nhập thành công</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1762831836040' status='passed' stop='1762831841149'>
+                    <name>I login </name>
+                    <title>I login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1762831836040' status='passed' stop='1762831838493'>
+                            <name>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</name>
+                            <title>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831838494' status='passed' stop='1762831838983'>
+                            <name>I fill field "Wifi Username", "cuongnpse194533"</name>
+                            <title>I fill field "Wifi Username", "cuongnpse194533"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831838984' status='passed' stop='1762831839630'>
+                            <name>I fill field "Password", "Taokophailatretrauok:))2005"</name>
+                            <title>I fill field "Password", "Taokophailatretrauok:))2005"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831839631' status='passed' stop='1762831840904'>
+                            <name>I click "Log in"</name>
+                            <title>I click "Log in"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831840904' status='passed' stop='1762831841149'>
+                            <name>I wait for text "Hi, Cuong!", 10</name>
+                            <title>I wait for text "Hi, Cuong!", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1762831841235' status='passed' stop='1762831845767'>
+            <name>Đăng nhập thất bại</name>
+            <title>Đăng nhập thất bại</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1762831841507' status='passed' stop='1762831845767'>
+                    <name>I login fail </name>
+                    <title>I login fail </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1762831841507' status='passed' stop='1762831844036'>
+                            <name>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</name>
+                            <title>I am on page "https://lms-hcm.fpt.edu.vn/login/index.php"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831844036' status='passed' stop='1762831844606'>
+                            <name>I fill field "Wifi Username", "invalid@email.com"</name>
+                            <title>I fill field "Wifi Username", "invalid@email.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831844607' status='passed' stop='1762831845065'>
+                            <name>I fill field "Password", "wrongpassword"</name>
+                            <title>I fill field "Password", "wrongpassword"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831845066' status='passed' stop='1762831845679'>
+                            <name>I click "Log in"</name>
+                            <title>I click "Log in"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762831845680' status='passed' stop='1762831845767'>
+                            <name>I wait for text "Invalid login, please try again", 10</name>
+                            <title>I wait for text "Invalid login, please try again", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

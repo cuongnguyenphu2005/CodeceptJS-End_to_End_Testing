@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1762829741753' stop='1762829755665'>
+    <name>User Main Flow:</name>
+    <title>User Main Flow:</title>
+    <test-cases>
+        <test-case start='1762829742089' status='failed' stop='1762829755229'>
+            <name>Đăng nhập thành công</name>
+            <title>Đăng nhập thành công</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1762829742452' status='failed' stop='1762829755229'>
+                    <name>I login </name>
+                    <title>I login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1762829742452' status='passed' stop='1762829744099'>
+                            <name>I am on page "https://ridervolt.app"</name>
+                            <title>I am on page "https://ridervolt.app"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762829744099' status='passed' stop='1762829744345'>
+                            <name>I click "Đăng nhập"</name>
+                            <title>I click "Đăng nhập"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762829744345' status='passed' stop='1762829744755'>
+                            <name>I fill field "Email", "admin1@a.c"</name>
+                            <title>I fill field "Email", "admin1@a.c"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762829744755' status='passed' stop='1762829745012'>
+                            <name>I fill field "Mật khẩu", "123456"</name>
+                            <title>I fill field "Mật khẩu", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762829745012' status='passed' stop='1762829745175'>
+                            <name>I click "Đăng nhập"</name>
+                            <title>I click "Đăng nhập"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1762829745176' status='failed' stop='1762829755228'>
+                            <name>I wait for text "Đăng nhập thành công", 10</name>
+                            <title>I wait for text "Đăng nhập thành công", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Main session - Last Seen Screenshot' source='8a5b8d37-5954-4369-accc-14532635b960-attachment.png' type='image/png' size='205926'/>
+            </attachments>
+            <failure>
+                <message>Text "Đăng nhập thành công" was not found on page after 10 sec.</message>
+                <stack-trace>Error: Text "Đăng nhập thành công" was not found on page after 10 sec.
+                    at C:\Edisk\dow\Tai_lieu\Ki5\swt301\completed-project\ridervolt-end-to-end-tests\node_modules\codeceptjs\lib\helper\Playwright.js:3052:13</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
